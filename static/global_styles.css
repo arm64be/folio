@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  background: #000;
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  padding: 1rem;
+}
+
+@media (min-width: 480px) {
+  body {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 3rem;
+  }
+}
+
+.card {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #444;
+  border-radius: 4px;
+}
+
+.card h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.card h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #888;
+}
+
+.card p {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.subtitle {
+  color: #555;
+  font-style: italic;
+}
+
+.api-list {
+  list-style: none;
+}
+
+.api-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.label {
+  color: #555;
+}
+
+.value {
+  color: #ccc;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.file-header {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #444;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.file-header h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  word-break: break-all;
+}
+
+.file-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.file-actions {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #444;
+  border-radius: 4px;
+}
+
+.file-actions a {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.back-link {
+  text-align: left;
+  max-width: 480px;
+  margin: 0 auto 0.5rem;
+}
+
+.back-link a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.back-link a:hover {
+  color: #888;
+}
